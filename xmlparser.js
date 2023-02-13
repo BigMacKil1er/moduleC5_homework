@@ -38,4 +38,5 @@ student.forEach(element => {
     someArray.push(person)
 });
 
-console.log('result', someArray);
+const objectPersons = {list: someArray}
+console.log(objectPersons);
