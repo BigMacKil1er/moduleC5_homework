@@ -70,7 +70,7 @@ body {
     color: rgb(190, 190, 190);
     transition: all 1s;
 }
-.button:hover, .link:hover {
+.button:hover, .link :hover {
     color: white;
     border-color: white;
     scale: 1.01;
@@ -93,6 +93,7 @@ body {
 
 .card {
     width: 160px;
+    height: 100px;
     border-radius: 5px;
     overflow: hidden;
 }
